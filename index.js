@@ -23,6 +23,10 @@ app.get('/', function(req,res){
 	// Send the construction page
 	res.render('construction');  
 });
+app.get('/home', function(req,res){ 
+	// Send the construction page
+	res.render('home');  
+});
 
 // If no routes match, send the 404 page
 app.use(function(req,res){  
